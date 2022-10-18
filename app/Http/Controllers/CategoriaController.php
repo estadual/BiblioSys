@@ -11,7 +11,7 @@ class CategoriaController extends Controller
 {
 
     public function cadastrar(){
-        return view('categoria.create');
+        return view('Cat_Autor.create');
     }
 
     public function store(Request $request){
